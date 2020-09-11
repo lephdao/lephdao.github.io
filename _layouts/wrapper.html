@@ -1,0 +1,16 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>site.title</title>
+</head>
+
+<body>
+	{% include header.html color="blue" %}
+	<h2 style="color: pink;">Wrapper here</h2>
+	{{ content }}
+</body>
+
+<footer>
+	Contact me @ {{ site.email }}
+</footer>
+</html>
