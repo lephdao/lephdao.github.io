@@ -1,11 +1,12 @@
---- 
+---
 layout: "wrapper"
 ---
 <!-- site. means pulling info from config.yml -->
 <h2>{{ site.description }}</h2>
-<a href="{{ site.baseurl }}/about">About me</a>
 
 <p>Blog posts</p>
 {% for post in site.posts %}
 	<li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endfor %}
+
+<a href="{{ site.baseurl }}/about">Contact me!</a>
