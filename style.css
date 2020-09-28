@@ -7,9 +7,9 @@ body {
   background-color: white;
   font-family: monospace;
   font-size: 1.3rem;
-  line-height: 1;
-  margin: 0 auto;
-  padding: 3.5rem;
+  line-height: normal;
+  margin: auto;
+  padding: 3.5rem 2rem;
 }
 
 h2, h3, h4, h5, h6 {
