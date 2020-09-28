@@ -1,11 +1,14 @@
 html {
+  height: 100%;
+}
+
+body {
   color: black;
   background-color: white;
-  font-family: 'Roboto Mono', monospace;
+  font-family: monospace;
   font-size: 0.8rem;
   line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  margin: 3rem;
+  margin: 4rem;
 }
 
 h2, h3, h4, h5, h6 {

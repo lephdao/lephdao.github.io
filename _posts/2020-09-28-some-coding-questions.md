@@ -3,7 +3,7 @@ Hi, these are my attempts at coryualthoff's post about [Five Common Programming 
 ### Find the missing number in a given integer array of 1 to 100
 The prompt to the problem can be found at [this leetcode](https://leetcode.com/problems/missing-number/solution/).
 
-The prompt is given an array containing `n` distinct numbers taken from `0, 1, 2, ..., n`, find the one that is missing from the array.
+The prompt is given an array containing **n** distinct numbers taken from **0, 1, 2, ..., n**, find the one that is missing from the array.
 * For example: [3,0,1] => 2
 * [9,2,3,4,5,7,8,1] => 6
 
