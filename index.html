@@ -1,34 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Bootstrap 4 Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>What Else Besides Pho?</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link href="style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
 <body>
-  <h1> Hi </h1>
-  <p>  Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do:  once or twice she had peeped into the book her sister </p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-md">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about-section">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects-section">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#resume-section">Resume & Contacts</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-<!--- Footer -->
-<footer>
-    <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-12">
-                <hr class="light" />
-                <h6>&copy; HackHer314</h6>
+<div class="container-md">
+    <h3 id="about-section" class="about">About</h3>
+    <div class="row">
+        <p class="intro">Hi, my name is Le. Get your favorite drink and let's me tell you a story. In 2013, I was a freshman who wanted to become the greatest illustrator ever. As I navigated myself through college, my dream was crushed when I realized that (1) my passion was slowly leaving me as things got harder, and (2) I was doubting myself that I wasn't good enough. So I packed my bag and went to study Engineering. During my time in Engineering school, I was busy catching up homeworks after homeworks that I forgot how to draw and appreciate beauty in art. Until now when I started to learn React/web dev as a way to gain solid skills, I slowly felt a glimpse of my old passion coming back to me. Is it the UI design? Is it the eye-pleasing colors? I can't tell, but I have found meanings in creating these online widgets that someday help my users achieve their goals, and love looking at.</p>
+    </div>
+</div>
+
+<!-- Projects in cards -->
+<div class="projects">
+    <div class="container-md">
+        <h3 id="projects-section" class="projects-heading">Projects</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="em em-telescope" aria-role="presentation" aria-label="TELESCOPE"></i>UX Design | CourseSeek</h4>
+                        <p class="card-text">I designed this interface using Figma as a tool to lets users find their best tech courses from independent instructors to large institutions.</p>
+                        <a href="https://www.figma.com/file/SlfFT2TfPXsxgAdgMOBCut/Pace-Seek-Course?node-id=16%3A2" class="card-link">Let's see it!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="em em-bowl_with_spoon" aria-role="presentation" aria-label="BOWL WITH SPOON"></i>Bootstrap | Besides Pho?</h4>
+                        <p class="card-text">This website shows different types of Vietnamese cuisine according to the occasions such as new year feast and daily family meals.</p>
+                        <a href="https://lephdao.dev/besidespho" class="card-link">Let's see it!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="em em-eyes" aria-role="presentation" aria-label="EYES"></i> React | Untitled</h4>
+                        <p class="card-text">I'm currently working on a project with React and Firebase. Stay tune!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+</div>
+
+<!-- Resume and contacts -->
+<div class="container-md">
+    <h3 id="resume-section" class="about">Resume & Contacts</h3>
+    <div class="row">
+        <p><i class="em em-bookmark_tabs" aria-role="presentation" aria-label="BOOKMARK TABS"></i><a class="link" href="https://www.dropbox.com/s/wz96nt2r460djpr/Le%20Dao-CV.pdf?dl=0"> My Resume</a></p>
+        <p><i class="em em-mailbox_with_mail" aria-role="presentation" aria-label="OPEN MAILBOX WITH RAISED FLAG"></i> Email me at <mark class="hl1">lenpdao@gmail.com</mark></p>
+    </div>
+</div>
+
+<hr />
+<footer>
+    <div class="container-md">
+        <div class="row text-center">
+            <div class="col-12">
+                <span class="f">Built with curiosity <i class="em em-smirk_cat" aria-role="presentation" aria-label="CAT FACE WITH WRY SMILE"></i></span>
+            </div>
+        </div>
+    </div>
+
 </footer>
 
 
