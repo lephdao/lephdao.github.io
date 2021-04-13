@@ -1,0 +1,42 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+.about {
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+}
+.projects-heading {
+    text-align: center;
+    margin-top: 1%;
+    padding: 10px;
+}
+.projects {
+    background-color: #bfacfb;
+}
+p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar .navbar-nav {
+    font-size: 20px;
+}
+.hl1 {
+    background-color: #bccbfd;
+}
+.f {
+    font-size: 18px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.container-md {
+    padding: 30px;
+}
+
